@@ -18,6 +18,29 @@
 ## Video
 - [React 2021](https://www.youtube.com/watch?v=UtP0h4x_Zxs&list=PLyuRouwmQCjmMfs-HOsDGoaN6JiYrC6Ms&index=6)
 
+## PWA React app description
+- [Create React App](https://create-react-app.dev/docs/making-a-progressive-web-app)
+- [Git](https://github.com/AnasOnGit/react-yt-downloader-codestick)
+- npx create-react-app my-app --template cra-template-pwa
+- service-worker.js
+- serviceWorkerRegistration.js
+- index.js
+    - import * as serviceWorkerRegistration from './serviceWorkerRegistration'
+    - serviceWorkerRegistration.register()
+- package.json
+    - "workbox-background-sync": "^5.1.3",
+    - "workbox-broadcast-update": "^5.1.3",
+    - "workbox-cacheable-response": "^5.1.3",
+    - "workbox-core": "^5.1.3",
+    - "workbox-expiration": "^5.1.3",
+    - "workbox-google-analytics": "^5.1.3",
+    - "workbox-navigation-preload": "^5.1.3",
+    - "workbox-precaching": "^5.1.3",
+    - "workbox-range-requests": "^5.1.3",
+    - "workbox-routing": "^5.1.3",
+    - "workbox-strategies": "^5.1.3",
+    - "workbox-streams": "^5.1.3"
+
 ## Deploy the application on
 - heroku
 - netlify
